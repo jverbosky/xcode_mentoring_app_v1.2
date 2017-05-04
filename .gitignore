@@ -1,0 +1,5 @@
+.bundle/
+CertificateSigningRequest.certSigningRequest
+*.cer
+*.p12
+Mined Minds Mentoring.entitlements
