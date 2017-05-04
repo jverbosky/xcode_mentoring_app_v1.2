@@ -27,7 +27,7 @@
                                 <rect key="frame" x="16" y="208" width="343" height="268"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kBH-aJ-hCp">
-                                        <rect key="frame" x="100" y="0.0" width="143" height="37"/>
+                                        <rect key="frame" x="107" y="0.0" width="129" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="wga-Pt-5KE"/>
                                         </constraints>
@@ -83,9 +83,8 @@
                                     <constraint firstAttribute="trailing" secondItem="NaS-eE-3e7" secondAttribute="trailing" constant="100" id="B3z-mD-LBs"/>
                                     <constraint firstItem="NaS-eE-3e7" firstAttribute="leading" secondItem="bV2-Te-ciy" secondAttribute="leading" constant="100" id="OxU-s8-CcT"/>
                                     <constraint firstItem="NmA-Vs-Rfw" firstAttribute="leading" secondItem="bV2-Te-ciy" secondAttribute="leading" id="Qxg-xP-5sW"/>
-                                    <constraint firstAttribute="trailing" secondItem="kBH-aJ-hCp" secondAttribute="trailing" constant="100" id="Z9C-XP-67Z"/>
                                     <constraint firstItem="8yV-rG-E0t" firstAttribute="leading" secondItem="bV2-Te-ciy" secondAttribute="leading" id="ZaE-pR-rGg"/>
-                                    <constraint firstItem="kBH-aJ-hCp" firstAttribute="leading" secondItem="bV2-Te-ciy" secondAttribute="leading" constant="100" id="uge-ar-uez"/>
+                                    <constraint firstItem="kBH-aJ-hCp" firstAttribute="centerX" secondItem="bV2-Te-ciy" secondAttribute="centerX" id="siT-x8-Kv8"/>
                                 </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MMMentoringLogo.png" highlightedImage="MMMentoringLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="S3T-K3-YeA">
