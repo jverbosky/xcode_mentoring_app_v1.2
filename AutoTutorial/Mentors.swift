@@ -14,7 +14,8 @@ class Mentors: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url=URL(string: "http://mentor-mentee-app.herokuapp.com/login")
+        
+        let url=URL(string: "http://mentor-mentee-app.herokuapp.com/mentor_dashboard")
         mentorWebView.loadRequest(URLRequest(url: url!))
 
            }
